@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: aqua;
+    margin-right: 30px;
+}
+
+a{
+    font-size: 1.4rem;
+    color: black;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    
+    
+    align-items: center;
+}
+.nav{
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    /* position: fixed; */
+    padding-top: 0;
+}
+.l{
+    display: flex;
+    
+    margin-left:150px;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    background-color:white;
+}
+label{
+    color: rgb(203, 28, 130);
+    margin-top: 10px;
+}
+.forml{
+    height: 60vh;
+    width: 30%;
+    border-radius: 1.5rem;
+    background-color:slategray;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 15vh;
+}
+.m{
+    margin-left: 20%;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 2rem;
+    width:70%;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    border:none;
+}
+button{
+    height: 2rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+
+
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left :50%;
+}
+.s{
+    height:2rem;
+    width: 23rem;
+    padding-left: 12px;
+}
+.bag{
+    font-size: 1.5rem;
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: -5px;
+    left:+15px;
+    border-radius: 0.5rem;
+    width: 15px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 20px;
+}
+.bagb{
+    width: 30px;
+    background-color: rgb(194, 216, 216);
+    border:none ;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.l{
+    width: 70%;
+    height: 40px;
+}
+.imgl{
+    height: 140px;
+    width: 130px;
+}
+ #add{
+    position:absolute;
+    bottom:10px;
+    right: -100px;
+cursor: pointer;
+ }
+ .card{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(194, 216, 216);
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-color: black;
+    /* transition: 3s; */
+
+ }
+ .card:hover{
+    /* -o-transition-delay: 3s; */
+    /* overflow:unset;s */
+    overflow: hidden;
+
+    #add{
+        bottom:10px;
+        right: 10px;
+        transition:0.5s;
+
+    }
+   
+    /* position: absolute; */
+ }
+.img1{
+    height: 230px;
+    width: 250px;
+    background-color: black;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.btn{
+    height: 340px;
+    width: 330px;
+    margin-left: 10px;
+
+}
+.card:hover{
+    /* transform:translateZ(-55px);
+     */
+     transform: translateZ(-42px);
+}
+.container{
+    display: flex;
+    /* flex-direction:row-reverse; */
+}
+.buy{
+    /* gap:em;
+     */
+     color: bisque;
+     display: flex;
+    flex-direction: column;
+
+}
+
+.imgl{
+    height: 85px;
+    width: 95px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#total{
+    margin-top: 10px;
+}
+.buyi{
+    height: 30px;
+    width: 100px;
+
+}
+.count{
+    width: 30px;
+    background-color: black;
+}
+.nav{
+    background-color: darkslategrey;
+}
+a{
+    color: aliceblue;
+}

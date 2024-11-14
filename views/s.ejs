@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table width=100% border=1>
+        <tr>
+        <td>sno</td>
+        <td>id</td>
+        <td>name</td>
+        <td>mobileno</td>
+        <td>emailid</td>
+        <td>action</td>
+    </tr>
+    <%  %>
+        <% for(var i=0;i<s.length;i++){ %>
+            <tr>
+            <td><%= s[i].i %></td>
+            <td><%= s[i].id %></td>
+            <td><%= s[i].name %></td>
+            <td><%= s[i].mobile_no %></td>
+            <td><%= s[i].email_id %></td>
+            <td>
+                <a href="/update?id=<%=s[i].i%>">update</a>
+                <a href="/delete?id=<%=s[i].i%>">delete</a>
+            </td>
+            </tr>
+            
+           <% } %>
+</table>
+            
+</body>
+</html>
